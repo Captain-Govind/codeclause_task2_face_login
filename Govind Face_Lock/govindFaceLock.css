@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.flx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#container{
+    display: grid;
+    grid-template-columns: 4fr 1fr 4fr;
+    margin-top: 3vw;
+}
+
+.fl{
+    text-decoration: underline;
+}
+
+.Login{
+    padding-left: 20vw;
+}
+
+.SignUp{
+    padding-left: 10vw;
+}
+
+.name{
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+/* div{
+    border: 1px solid blue;
+} */
